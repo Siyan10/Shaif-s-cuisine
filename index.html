@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .font-raleway {
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
+    <title>Shaif’s Cuisine</title>
+    <link rel="icon" type="image/png" href="images/reshot-icon-wine-glass-Q4NSBETW52.svg">
+</head>
+
+<body class="bg-green-50 text-gray-800">
+    <!-- Header Section -->
+    <header class="flex flex-col md:flex-row justify-between items-center mb-20 p-5 mt-6 mx-6">
+        <div class="flex items-center space-x-2 mb-4 md:mb-0">
+            <img src="images/logo (1).svg" alt="Logo">
+        </div>
+        <nav class="flex items-center space-x-6">
+            <a href="#" class="hover:text-green-500">Home</a>
+            <a href="#" class="hover:text-green-500">Menu</a>
+            <a href="#" class="hover:text-green-500">About</a>
+            <a href="#" class="hover:text-green-500">Contact</a>
+            <button class="bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-4 rounded-full">Order</button>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="max-w-5xl mb- mx-auto px-4 sm:px-6 lg:px-8">
+        <section class="flex flex-col mb-20 py- md:flex-row justify-between items-center gap-5 pt-10">
+            <div class="text-center md:text-left md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-xl md:text-2xl lg:text-3xl pb-4 font-poppins text-[#3b413a] font-semibold">
+                    The flavor of <br class="hidden md:block"> Tradition
+                </h1>
+                <p class="text- mx-auto md:mx-0 mt-3 text-[#3f3c3c] text-lg font-raleway mb-4">
+                    We are a multi-cuisine restaurant offering a wide variety of food experience in both casual and fine
+                    dining environments.
+                </p>
+                <div class="">
+                    <button
+                        class="bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-4 rounded-full mb-2 md:mb-0 md:mr-4">Order</button>
+                    <button class="bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-4 rounded-full">Learn
+                        More</button>
+                </div>
+            </div>
+            <img src="images/heroimg.png" class="w-full md:w-1/2 mt-6 md:mt-0" alt="Hero Image">
+        </section>
+
+        <!-- Contact Section -->
+        <section class=" px-12 mb-20 py-10">
+
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="flex flex-col items-center justify-center bg-[#d6e5d8] p-4 md:p-6 rounded-lg shadow-md">
+                    <img src="images/wall-clock-icon.svg" class="w-8 md:w-12 mr-2 md:mr-4" alt="Clock Icon">
+                    <div>
+                        <h3 class="text-lg md:text-xl lg:text-xl font-poppins text-[#3b413a] font-semibold">
+                            10 AM - 7 PM
+                        </h3>
+                        <p class="text-[#3f3c3c] text-sm md:text-base font-normal font-raleway">Monday - Friday</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center bg-[#d6e5d8] justify-center text-center  p-4 md:p-6 rounded-lg shadow-md">
+                    <img src="images/address-icon.svg" class="w-8 md:w-12 mr-2 md:mr-4" alt="Address Icon">
+                    <div>
+                        <h3 class="text-lg md:text-xl lg:text-xl font-poppins text-[#3b413a] font-semibold">
+                            Address
+                        </h3>
+                        <p class="text-[#3f3c3c] text-sm md:text-base font-normal font-raleway"> GEC, Chittagong</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center text-center  justify-center bg-[#d6e5d8] p-4 md:p-6 rounded-lg shadow-md">
+                    <img src="images/phone-icon.svg" class="w-8 md:w-12 mr-2 md:mr-4" alt="Phone Icon">
+                    <div>
+                        <h3 class="text-lg md:text-xl lg:text-xl font-poppins text-[#3b413a] font-semibold">
+                            +880123443
+                        </h3>
+                        <p class="text-[#3f3c3c] text-sm md:text-base font-normal font-raleway"> Call Now</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="mb-20 px-5 max-w-9xl  py-8 ">
+            <h1
+                class="text-2xl md:text-3xl lg:text-4xl text-center uppercase underline font-poppins text-[#3b413a] font-semibold mb-4">
+                special dishes</h1>
+            <div class="grid max-w-9xl mx-auto  gap-14 grid-cols-1 md:grid-cols-3 items-center md:p-6 lg:p-20">
+                <div class="card flex flex-col items-center p-2 justify-center bg-[#d6e5d8]  md:p-4 sm:p-12 rounded-lg shadow-md">
+                    <img src="images/food-1.png" class="w-full bg-cover" alt="Food Image">
+                    <h1
+                        class="text-1xl pt-4 md:text-2xl lg:text-2xl text-center uppercase font-poppins text-[#3b413a] font-semibold mb-4">
+                        Vegan salad Bowl</h1>
+                    <p class="text-[#3f3c3c] font-raleway text-sm font-semibold"><span
+                            class="text-xl font-sans font-bold text-[#26643b]">$27 </span><br>These Sweet Potato Fries bowl
+                        are a glorious, messy plate of goodness. Crispy sweet potato fries loaded with lots of fresh
+                        summer vegetables and a lime ranch. By adding a seasoning blend with chipotle powder, garlic,
+                        and onion, these spicy sweet potato fries are full of flavor.</p>
+
+                </div>
+                <div
+                    class="card flex flex-col items-center justify-center bg-[#d6e5d8] p-2 md:p-4 sm:p-23 rounded-lg shadow-md">
+                    <img src="images/food-2.png" class="w-full" alt="Food Image">
+                    <h1
+                        class="text-1xl pt-4 md:text-2xl lg:text-2xl text-center uppercase font-poppins text-[#3b413a] font-semibold mb-4">
+                        Vegan Pesto Zoodles</h1>
+                    <p class="text-[#3f3c3c] font-raleway text-sm font-semibold"><span
+                            class="text-xl font-bold font-sans text-[#26643b]">$32 </span><br>These Sweet Potato Fries bowl are a
+                        glorious, messy plate of goodness. Crispy sweet potato fries loaded with lots of fresh summer
+                        vegetables and a lime ranch. By adding a seasoning blend with chipotle powder, garlic, and
+                        onion, these spicy sweet potato fries are full of flavor.</p>
+                </div>
+                <div class=" pb- mb-">
+                    <h1 class="font-poppins text-2xl text-[#3b413a]">Our Specials</h1>
+                    <p class="text-[#3f3c3c] font-normal font-raleway w-3/4">Our specials are made with fresh
+                        ingredients.</p>
+
+                    <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 mt-4 px-4 rounded">Book
+                        Table</button>
+                </div>
+        </section>
+
+        <!-- top dishes -->
+
+        <section class="mb-20 px-5 max-w-9xl py-8 ">
+            <h1
+                class="text-2xl md:text-3xl lg:text-4xl text-center uppercase underline font-poppins text-[#3b413a] font-semibold mb-4">
+                top dishes</h1>
+            <div class="grid max-w-9xl mx-auto  gap-14 grid-cols-1 md:grid-cols-3 items-center sm:p-8 md:p-6 lg:p-20">
+                <div
+                    class="card flex flex-col items-center justify-center bg-[#d6e5d8] p-2 md:p-4 rounded-lg shadow-md">
+                    <img src="images/food-1.png" class="w-full bg-cover" alt="Food Image">
+                    <h1
+                        class="text-1xl pt-4 md:text-2xl lg:text-2xl text-center uppercase font-poppins text-[#3b413a] font-semibold mb-4">
+                        Vegan salad Bowl</h1>
+                    <p class="text-[#26643b] font-poppins text-xl font-semibold">$25</p>
+                </div>
+                <div
+                    class="card flex flex-col items-center justify-center bg-[#d6e5d8] p-2 md:p-4 rounded-lg shadow-md">
+                    <img src="images/food-2.png" class="w-full" alt="Food Image">
+                    <h1
+                        class="text-1xl pt-4 md:text-2xl lg:text-2xl text-center uppercase font-poppins text-[#3b413a] font-semibold mb-4">
+                        Vegan Pesto Zoodles</h1>
+                    <p class="text-[#26643b] font-poppins text-xl font-semibold">$20</p>
+                </div>
+                <div
+                    class="card flex flex-col items-center justify-center bg-[#d6e5d8] p-2 md:p-4 rounded-lg shadow-md">
+                    <img src="images/food-7.png" class="w-full" alt="Food Image">
+                    <h1
+                        class="text-1xl pt-4 md:text-2xl lg:text-2xl text-center uppercase font-poppins text-[#3b413a] font-semibold mb-4">
+                        Hot Green Bowl</h1>
+                    <p class="text-[#26643b] font-poppins text-xl font-semibold ">$30</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="max-w-6xl  mb-12 mx-auto p-6">
+            <div>
+                <h1
+                    class="text-2xl md:text-3xl lg:text-4xl  text-center uppercase underline font-poppins text-[#3b413a] font-semibold mb-7">
+                    trial dishes</h1>
+            </div>
+            <div class="grid grid-cols-1 bg-[#d6e5d8] md:grid-cols-3 gap-3 items-center">
+                <div class="flex flex-col items-center bg-[#d6e5d8] p-4 rounded-lg ">
+                    <img src="images/food-1.png" class="w-full rounded-lg" alt="Food Image">
+                </div>
+                <div class="flex flex-col items-center bg-[#d6e5d8] p-4 rounded-lg ">
+                    <img src="images/food-2.png" class="w-full rounded-lg" alt="Food Image">
+                </div>
+                <div class="flex flex-col items-center bg-[#d6e5d8] p-4 rounded-lg">
+                    <img src="images/food-3.png" class="w-full rounded-lg" alt="Food Image">
+                </div>
+                <div
+                    class="bg-[#d6e5d8] p-6 rounded-lg col-span-1 md:col-span-3 flex flex-col md:flex-row items-center justify-between">
+                    <div>
+                        <h2 class="text-xl md:text-2xl font-semibold text-[#3b413a]">20% OFF</h2>
+                        <h1 class="text-2xl md:text-3xl font-bold text-[#3b413a]">Demo Dish For Discount</h1>
+                        <p class="text-lg line-through text-[#3f3c3c]">$45 <span class="text-green-600">$35</span></p>
+                        <p class="text-green-600">★★★★☆</p>
+                    </div>
+                    <button class="mt-4 md:mt-0 px-4 py-2 bg-green-600 text-white font-semibold rounded-lg">Book
+                        Table</button>
+
+                </div>
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto mb-16 py-20  px-4 md:px-10 justify-center flex flex-col gap-8 md:flex-row">
+            <div class="relative w-full md:w-1/2 h-64 md:h-auto">
+                <img src="images/eventsmedia1.png" class=" w-full h-full object-cover rounded-lg shadow-md"
+                    alt="Image 1">
+            </div>
+            <div class="relative w-full md:w-1/2 h-64 md:h-auto">
+                <img src="images/eventsmedia2.png" class=" w-full h-full object-cover rounded-lg shadow-md"
+                    alt="Image 2">
+            </div>
+        </section>
+
+        <section class="max-w-7xl mx-auto mb-12  py-20 px-4 md:px-10 flex flex-col gap-8 md:flex-row">
+            <div class="flex flex-col gap-4 w-full md:w-1/2">
+                <div class="flex bg-[#d6e5d8] p-4 rounded-lg shadow-md">
+                    <img src="images/event-corporate.png" class="w-1/3 h-full object-cover rounded-lg"
+                        alt="Corporate Events">
+                    <div class="ml-4 flex flex-col justify-center">
+                        <h2 class="text-xl font-semibold text-gray-800">Corporate Events</h2>
+                        <p class="text-gray-600">Shaif's Cuisine is the perfect venue for your corporate events. We
+                            specialize in private parties.</p>
+                    </div>
+                </div>
+                <div class="flex bg-[#d6e5d8] p-4 rounded-lg shadow-md">
+                    <img src="images/event-weedings.png" class="w-1/3 h-full object-cover rounded-lg" alt="Weddings">
+                    <div class="ml-4 flex flex-col justify-center">
+                        <h2 class="text-xl font-semibold text-gray-800">Weddings</h2>
+                        <p class="text-[#26643b]">Shaif's Cuisine offers an intimately unique wedding experience set in
+                            a spectacular setting that is sophisticated and comfortable.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col justify-center w-full md:w-1/2 bg-gray-100 p-8 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Book For Events</h2>
+                <p class="text-gray-600 mb-6">Book your private event or corporate function at Shaif's cuisine to
+                    experience a truly unique experience.</p>
+                <button class="bg-green-600 text-white px-4 py-2 rounded-lg shadow-md">Contact Now</button>
+            </div>
+        </section>
+        <section class="max-w-7xl mx-auto mb-32 py-20 px-4 md:px-10">
+            <div>
+                <div>
+                    <h1 class="text-xl md:text-2xl lg:text-2xl text-center font-poppins text-[#3b413a] font-semibold mb-6">
+                        Why Choose Our Food</h1>
+                    <p class="text-center font-raleway text-[#3f3c3c]">
+                        Quality of Service, Food, Ambiance, and Value of Money are the primary elements for choosing a restaurant. Shaif's Cuisine is one of the most exquisite fine-dining restaurants in Chittagong cities with a captivating view of GEC Hills, perfect ambiance, and scrumptious food.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 py-10">
+                    <div class="card flex flex-col items-center justify-center bg-[#d6e5d8] p-4 rounded-lg shadow-md">
+                        <img src="images/whyus-icon1.svg" class="w-full bg-cover" alt="Food Image">
+                        <h1 class="text-lg pt-4 text-center uppercase font-poppins text-[#3b413a] font-semibold mb-4">
+                            Authentic taste
+                        </h1>
+                    </div>
+                    <div class="card flex flex-col items-center justify-center bg-[#d6e5d8] p-4 rounded-lg shadow-md">
+                        <img src="images/whyus-icon2.svg" class="w-full bg-cover" alt="Food Image">
+                        <h1 class="text-lg pt-4 text-center uppercase font-poppins text-[#3b413a] font-semibold mb-4">
+                            Classical taste
+                        </h1>
+                    </div>
+                    <div class="card flex flex-col items-center justify-center bg-[#d6e5d8] p-4 rounded-lg shadow-md">
+                        <img src="images/whyus-icon3.svg" class="w-full bg-cover" alt="Food Image">
+                        <h1 class="text-lg pt-4 text-center uppercase font-poppins text-[#3b413a] font-semibold mb-4">
+                            Skilled Chef
+                        </h1>
+                    </div>
+                    <div class="card flex flex-col items-center justify-center bg-[#d6e5d8] p-4 rounded-lg shadow-md">
+                        <img src="images/whyus-icon4.svg" class="w-full bg-cover" alt="Food Image">
+                        <h1 class="text-lg pt-4 text-center uppercase font-poppins text-[#3b413a] font-semibold mb-4">
+                            Best service
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="my-24 px-5 max-w-7xl mx-auto">
+            <h3 class="text-4xl mb-12 uppercase text-center font-poppins font-semibold">Happy <span class="text-red-500">Clients Says</span></h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-4 md:px-0">
+                <div class="card bg-[#d6e5d8] p-9 border-2 shadow-xl">
+                    <figure>
+                        <img src="images/user-1.png" class="w-3/4 mx-auto" alt="Client Image">
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="uppercase text-1xl mt-6 text-[#3b413a] card-title">Suresh Kumar</h2>
+                        <p class="text-[#3f3c3c]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fuga voluptatem expedita, sunt error culpa maiores?</p>
+                    </div>
+                </div>
+                <div class="card bg-[#d6e5d8] p-9 border-2 shadow-xl">
+                    <figure>
+                        <img src="images/user-2.png" class="w-3/4 mx-auto" alt="Client Image">
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="uppercase text-1xl mt-3 text-[#3b413a] card-title">Angelina</h2>
+                        <p class="text-[#3f3c3c]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fuga voluptatem expedita, sunt error culpa maiores?</p>
+                    </div>
+                </div>
+                <div class="card bg-[#d6e5d8] p-9 border-2 shadow-xl">
+                    <figure>
+                        <img src="images/user-3.png" class="w-3/4 mx-auto" alt="Client Image">
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="uppercase text-1xl mt-4 text-[#3b413a] card-title">Nitasha</h2>
+                        <p class="text-[#3f3c3c]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, fuga voluptatem expedita, sunt error culpa maiores?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="mb-20 px-5 max-w-9xl py-8">
+            <div class="flex flex-col md:flex-row items-center text-center md:text-left justify-between bg-[#a2de96] shadow-md p-6 rounded-lg">
+                <div class="flex flex-col items-center md:items-start p-4 rounded-lg">
+                    <h1 class="text-2xl font-poppins text-[#3b413a] font-bold">Join Newsletter</h1>
+                    <p class="text-[#3f3c3c] text-lg font-raleway">
+                        Get notified with the latest news and
+                        recent <br class="hidden md:block"> offers from the “Shaif’s Cuisine”
+                    </p>
+                </div>
+                <div class="w-full md:w-auto mt-4 md:mt-0">
+                    <input type="text" placeholder="Enter your email address" required class="w-full md:w-80 p-4 rounded-lg">
+                </div>
+            </div>
+        </section>
+        
+
+
+    </main>
+
+    
+    <!-- Footer -->
+    <footer class="bg-[#d6e5d8] text-center mb-5 text-[#3f3c3c] ">
+
+        <!-- Main container -->
+        <div class="mx-6 pt-8 pb-4 text-center">
+
+            <!-- Text -->
+            <div class="mb-10">
+                <img src="images/logo (1).svg" class="mx-auto" alt="">
+                <h5 class="mb-2 font-bold uppercase"></h5>
+
+                <p class="mb-4">
+                    Fresh and delicious traditional Bangladeshi food to delight the whole family.
+                </p>
+            </div>
+
+            <!-- Links -->
+            <div class="grid grid-cols-1 md:grid-cols-3 mb-4">
+                <!-- First column -->
+                <div class="mb-6">
+                    <h5 class="mb-2.5 text-[#3b413a] text-xl font-semibold font-poppins">
+                      link
+                    </h5>
+
+                    <ul class="mb-0 list-none">
+                        <li>
+                            <a href="#!" class="">
+                                home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="">
+                               menu
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="">
+                               about us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="">
+                               privicy and policy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Second column -->
+                <div class="mb-6">
+                    <h5 class="mb-2.5 text-[#3b413a] text-xl font-semibold font-poppins">
+                       support
+                    </h5>
+
+                    <ul class="mb-0 list-none">
+                        <li>
+                            <a href="#!" class="">
+                                contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="">
+                                FAQ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class=>
+                                terms and conditions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="">
+                             support center
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Third column -->
+                <div class="mb-6">
+                    <h5 class="mb-2.5 text-[#3b413a] text-xl font-semibold font-poppins ">
+                       address
+                    </h5>
+
+                    <ul class="mb-0 list-none">
+                        <li>
+                            <a href="#!" class="0">
+                                +880123813481
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="">
+                                webcifar@gmail.com
+                              
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="">
+                             
+                                GEC Circle, Chittagong, Bangladesh
+                            </a>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+
+        <div class=" flex justify-center items-center">
+
+            <span>© 2023 Copyright:    </span>
+
+            <a class=" " href="">
+                Shaif’s Cuisine | All rights reserved
+            </a>
+
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>
